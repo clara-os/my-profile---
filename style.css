@@ -1,0 +1,80 @@
+
+body {
+    color: black;     /* Text color */
+    background: #FFFFFF; /* Background color */
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.container { 
+    width: 700px;
+    margin: 40px auto;
+}
+
+h2 { 
+    color: #B8336A; 
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Added offsets for better shadow effect */
+    padding: 30px; /* Added padding for space inside the cards */
+    margin: 20px 0; /* Adjusted margins for better spacing between cards */
+}
+
+.playwrite-gb-s-uniquifier {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.profile-picture {
+    border-radius: 50%; /* Ensure to use the correct class name */
+    width: 170px; /* Set to the desired width */
+    height: 170px; /* Set to the desired height */
+    object-fit: cover; /* Ensure the image covers the area properly */
+    display: block; /* To center the image */
+    margin: 0 auto; /* Centering the image */
+}
+
+.text-center {
+    text-align: center; /* Center text and inline elements */
+}
+
+.card-white {
+    background: white;
+    padding: 30px;
+    border: 1px solid lightgrey;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0; /* kill remaining padding left */
+  margin: 0;
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0 20px; /* add som left/right padding between list items */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
